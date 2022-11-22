@@ -28,7 +28,9 @@ const Search = () => {
             </button>
             <div>
               <h3 className="py-2">LEADING SERVICES</h3>
-              <p className="py-1">ALL-INCLUSIVE COMPANY FOR TWO 20 YEARS IN A ROW</p>
+              <p className="py-1">
+                ALL-INCLUSIVE COMPANY FOR TWO 20 YEARS IN A ROW
+              </p>
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center text-center">
@@ -37,12 +39,40 @@ const Search = () => {
             </button>
             <div>
               <h3>LEADING SERVICES</h3>
-              <p className="py-1">ALL-INCLUSIVE COMPANY FOR TWO 20 YEARS IN A ROW</p>
+              <p className="py-1">
+                ALL-INCLUSIVE COMPANY FOR TWO 20 YEARS IN A ROW
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div>right</div>
+      <div>
+        <div className="border text-center">
+          <p className="pt-2">GET AN ADDITIONAL 10% OFF</p>
+          <p className="py-4">12 HOURS LEFT</p>
+          <p className="bg-gray-800 text-gray-200 py-2">BOOK NOW AND SAVE</p>
+        </div>
+        <form action="" className="w-full">
+          <div className="flex flex-col my-2">
+            <label>Destination</label>
+            <select className="border rounded-md p-2">
+              <option>Maldives</option>
+              <option>Key West</option>
+              <option>Cozumel</option>
+              <option>Grande Antigua</option>
+            </select>
+          </div>
+          <div className="flex flex-col my-4">
+            <label>Check-In</label>
+            <input type="date"  className="border rounded-md p-2"/>
+          </div>
+          <div className="flex flex-col my-2">
+            <label>Check-Out</label>
+            <input type="date"  className="border rounded-md p-2"/>
+          </div>
+          <button className="w-full my-4">Rates & Availability</button>
+        </form>
+      </div>
     </div>
   );
 };
