@@ -21,16 +21,26 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-20 px-4 absolute z-10 w-full text-white">
       <div>
-        <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>
+        <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
           BEACHES.
         </h1>
       </div>
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>Destinations</li>
-        <li>Travel</li>
-        <li>View</li>
-        <li>Book</li>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="#destinations">Destinations</a>
+        </li>
+        <li>
+          <a href="#selects">Travel</a>
+        </li>
+        <li>
+          <a href="#carousel">View</a>
+        </li>
+        <li>
+          <a href="#footer">Book</a>
+        </li>
       </ul>
       <div className="hidden md:flex">
         <BsSearch className="mr-2" size={20} />
@@ -62,7 +72,7 @@ const Navbar = () => {
           <li className="border-b">Book</li>
         </ul>
         <div className="flex flex-col">
-          <button className="my-6">Search</button> 
+          <button className="my-6">Search</button>
           <button>Account</button>
         </div>
         <div className="flex justify-between my-6">

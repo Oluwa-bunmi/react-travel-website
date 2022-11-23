@@ -28,7 +28,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 relative flex justify-center items-center">
+    <div id="carousel" className="max-w-[1240px] mx-auto py-16 px-4 relative flex justify-center items-center">
       <BsArrowLeftSquareFill
         onClick={prevSlide}
         className="absolute text-3xl top-[50%] text-white cursor-pointer left-8 "

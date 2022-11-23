@@ -9,7 +9,7 @@ import Antigua from "../assets/antigua.jpg";
 
 const Selects = () => {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div id="selects" className="max-w-[1240px] mx-auto py-16 px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <SelectsCard bg={Maldive} text="Maldives" />
       <SelectsCard bg={Jamaica} text="Jamaica" />
       <SelectsCard bg={Antigua} text="Antigua" />
